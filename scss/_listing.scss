@@ -1,0 +1,144 @@
+
+.list-stores-title{
+    font-size:1.5em;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: $primary-font-color;
+    margin: 50px 0 10px 0;
+}
+
+.list-stores{
+text-align: center;
+ margin: 0 auto;
+  
+
+ div {
+     padding: 10px;
+ a{
+    color: $primary-font-color;
+    text-decoration: none;
+    
+   h2{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size:1em;
+    font-weight: 300;
+    margin: 10px 0 40px;
+    }
+  }
+
+ img{
+    height: 200px;
+    width: auto;
+    border: solid 1px $images-border-color;
+    }
+ }
+ 
+ 
+}
+
+.cta-ribbon-topspace{
+    margin-top: 20px;
+}
+
+
+@media (min-width: 576px) {
+  .list-stores{
+      width: 100%;
+      
+    div{
+
+
+        img{
+            height: 230px;
+        }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+    .list-stores{
+        div{
+            a h2{
+                font-size:1.125em;
+                font-weight: 300;
+                margin: 10px 0 40px;
+                }
+
+          
+
+            img{
+                height: 250px;
+            }
+        }
+      }
+}
+
+@media (min-width: 992px) {
+    
+    .list-stores-title{
+        font-size:1.5em;
+        font-weight: 400;
+        margin: 40px 0 20px 0;
+    }
+    
+    
+    .list-stores{
+        div{
+
+           a h2{
+                font-size:1.25em;
+                font-weight: 300;
+                margin: 10px 0 40px;
+                }
+
+            img{
+                height: 200px;
+            }
+        }
+      }
+
+      .cta-ribbon-topspace{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .list-stores-title{
+        font-size:1.75em;
+        font-weight: 500;
+        margin: 70px 0 25px 0;
+    }
+
+    .list-stores{
+        width: 100%;
+
+        div{
+
+            a  h2{
+                font-size:1.5em;
+                font-weight: 400;
+                margin: 10px 0 40px;
+                }
+
+            img{
+                height: 220px;
+            }
+        }
+      }
+
+      .cta-ribbon-topspace{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .cta-ribbon-topspace{
+        margin-top: 80px;
+    }
+
+    .list-stores{
+        width: 85%;
+    }
+}

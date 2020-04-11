@@ -1,0 +1,514 @@
+@import "_variables.scss";
+
+
+.store-breadcrumb-container{
+    width:85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.store-breadcrumb{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: .875em;
+    color:$secondry-title-color;
+    margin: 10px 0 10px;
+ 
+    a{
+        text-decoration: none;
+        color:$primary-title-color;
+        font-weight: 500;
+
+        &:hover{
+            color: $category-title-hover;
+        }
+    }
+}
+
+
+.store-img{
+    text-align: center;
+
+    img{
+    width: 80%;
+    height: auto;
+    border: solid 1px $images-border-color;
+    }
+}
+
+.store-title{
+     display: block;
+
+    p{
+       text-align: left;
+       font-family:$font-sans;
+       color: $primary-title-color;
+       font-size: 1.5em;
+       margin: 20px 20px 10px;
+    }
+}
+
+.rating-star{
+    color :$ratings-color;
+    margin: 0 20px;
+    font-size: 0.875em;
+}
+
+.userrating-container{
+    display: flex;
+    flex-direction: row;
+     
+    justify-content: space-between;
+     
+    margin: 0 20px;
+    
+
+    div{
+        height: 60px;
+        align-self: flex-end;
+ 
+
+        span{
+          font-family: $font-roboto;
+          color: $secondry-font-color;
+          font-size: .75em;
+        }
+
+        a{
+            text-decoration: none;
+            color:$primary-link-color;
+            font-family: $font-roboto;
+            font-size: .875em;
+
+            &:hover{
+                color:$category-title-hover;
+            }
+        }
+    }
+}
+
+
+.store-description{
+    p{
+        font-family: $font-sans;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.85em;
+        margin: 10px 20px;
+    }
+}
+
+.store-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px 20px 10px 20px;
+}
+
+.fb-color{
+    color:$facebook-color;
+    font-size: 2.5em;
+}
+
+.inst-color {
+    color: $instagram-color;
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+
+
+.btn-shopnow{
+   font-family: $font-roboto;
+    border-radius: 10px;
+    border: solid 1px $primary-link-color;
+    background-color: transparent;
+    color:$primary-link-color;
+    font-size: .875em;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+
+    &:hover{
+        color:$category-title-hover;
+        border-color: $category-title-hover;
+    }
+}
+
+
+.btn-viewreviews{
+    font-family: $font-roboto;
+     border-radius: 10px;
+     border: solid 1px $primary-link-color;
+     background-color: transparent;
+     color:$primary-link-color;
+     font-size: 1.875em;
+     text-decoration: none;
+     padding: 10px 15px 10px 15px;
+     
+
+     &:hover{
+         color:$category-title-hover;
+         border-color: $category-title-hover;
+     }
+ }
+
+
+@media (min-width: 576px) {
+    .store-breadcrumb-container{
+        width:85%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .store-breadcrumb{
+        font-size: .875em;
+        margin: 10px 0 10px;
+     
+        span{
+            font-weight: 500;
+        }
+    }
+    
+    
+    .store-img{
+        text-align: center;
+        img{
+        width: 80%;
+        }
+    }
+    
+    .store-title{
+         display: block;
+        p{
+           text-align: left;
+           font-size: 1.5em;
+           margin: 20px 20px 10px;
+        }
+    }
+    
+    .rating-star{
+        margin: 0 20px;
+        font-size: 0.875em;
+    }
+    
+    .userrating-container{
+        margin: 0 20px 20px;
+    
+        div{
+            span{
+              font-size: .75em; }
+    
+            a{
+                font-size: .875em;}
+        }
+    }
+    
+    
+    .store-description{
+        p{
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 1.85em;
+            margin: 10px 20px;
+        }
+    }
+    
+    .store-buttons{
+        margin: 50px 20px 10px 20px;
+    }
+    
+    .fb-color{
+        font-size: 2.5em;
+    }
+    
+    .inst-color {
+        font-size: 2.5em;
+        margin-left: 10px;
+    }
+    
+    
+    .btn-shopnow{
+        border-radius: 10px;
+        width: 140px;
+        height: 40px;
+        font-size: .875em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .store-breadcrumb-container{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .store-breadcrumb{
+        font-size: .875em;
+        margin: 10px 0 10px;
+     
+        span{
+            font-weight: 500;
+        }
+    }
+    
+    .store-img{
+        text-align: right;
+        img{
+        width: 90%;
+        margin-top: 10px;
+        }
+    }
+    
+    .store-title{
+         display: block;
+        p{
+           text-align: left;
+           font-size: 1.5em;
+           margin: 0 20px 10px;
+        }
+    }
+    
+    .rating-star{
+        margin: 0 20px;
+        font-size: 0.875em;
+    }
+    
+    .userrating-container{
+        margin: 0 20px 20px;
+    
+        div{
+            span{
+              font-size: .75em; }
+    
+            a{
+                font-size: .875em;}
+        }
+    }
+    
+    .store-description{
+        p{
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 1.85em;
+            margin: 10px 10px 10px 20px;
+        }
+    }
+    
+    .store-buttons{
+        margin: 50px 20px 10px 20px;
+    }
+    
+  //  .fb-color{
+  //      font-size: 1.5em;
+  //  }
+    
+  //  .inst-color {
+ //       font-size: 1.5em;
+ //       margin-left: 10px;
+  // }
+    
+    
+    .btn-shopnow{
+        border-radius: 10px;
+        width: 140px;
+        height: 40px;
+        font-size: .875em;
+    }
+
+}
+
+//my css code here
+
+@media (min-width: 992px) {
+    .store-breadcrumb-container{
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .store-breadcrumb{
+        font-size: 1em;
+        margin: 10px 0 10px;
+     
+        span{
+            font-weight: 500;
+        }
+    }
+    
+    .store-img{
+        text-align: right;
+        img{
+        width: 90%;
+        margin-top: 10px;
+        }
+    }
+    
+    .store-title{
+         display: block;
+        p{
+           text-align: left;
+           font-size: 1.875em;
+           margin: 0 20px 15px;
+        }
+    }
+    
+    .rating-star{
+        margin: 0 20px;
+        font-size: 1em;
+    }
+    
+    .userrating-container{
+        margin: 0 20px 20px;
+    
+        div{
+            span{
+              font-size: .875em; }
+    
+            a{
+                font-size: 1em;}
+        }
+    }
+    
+    .store-description{
+        p{
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 1.85em;
+            margin: 10px 10px 10px 20px;
+        }
+    }
+    
+    .store-buttons{
+        margin: 50px 20px 10px 20px;
+    }
+    
+  //  .fb-color{
+   //     font-size: 2em;
+   // }
+    
+    .inst-color {
+  //      font-size: 2em;
+         margin-left: 15px;
+    }
+    
+    
+    .btn-shopnow{
+        border-radius: 10px;
+        font-size: .875em;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .store-breadcrumb-container{
+        width:90%;
+        margin-bottom: 30px;
+    }
+    
+    .store-breadcrumb{
+        font-size: 1.25em;
+        margin: 10px 0 20px;
+     
+        span{
+            font-weight: 500;
+        }
+    }
+    
+    
+    .store-img{
+        text-align: right;
+    
+        img{
+        width: 90%;
+        height: auto;
+        border: solid 1px $images-border-color;
+        }
+    }
+    
+    .store-title{
+         display: block;
+        p{
+           text-align: left;
+           font-size: 2.25em;
+           margin-top: 0;
+        }
+    }
+    
+    .rating-star{
+        color :$ratings-color;
+    }
+    
+    .userrating-container{
+        div{
+            
+            span{
+              font-family: $font-roboto;
+              color: $secondry-font-color;
+              font-size: .875em;
+            }
+    
+            a{
+                font-size: 1em;
+
+            }
+        }
+    }
+    
+    
+    .store-description{
+        p{
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 1.85em;
+        }
+    }
+    
+    .store-buttons{
+        margin-top: 50px;
+    }
+    
+    .fb-color{
+        font-size: 3em;
+    }
+    
+    .inst-color {
+        font-size: 3em;
+        margin-left: 30px;
+    }
+    
+    .btn-shopnow{
+        border-radius: 15px;
+        font-size: 1.125em;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media (min-width: 1360px) {
+
+    .store-breadcrumb-container{
+        width:85%;
+        margin-bottom: 30px;
+    }
+
+    .store-img{
+        text-align: right;
+    
+        img{
+        width: 80%;
+        }
+       
+    }
+
+    .store-description{
+        p{
+            font-size: 1.25em;
+            font-weight: 400;
+            line-height: 1.85em;
+            margin: 10px 0 10px 20px;
+        }
+    }
+
+}
