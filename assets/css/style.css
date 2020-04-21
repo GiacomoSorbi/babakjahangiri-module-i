@@ -31,8 +31,8 @@ header {
   text-decoration: none;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #6D6D6D;
-  font-size: 1.125em;
-  margin: 0 15px;
+  font-size: 1em;
+  margin: 0 5px;
 }
 
 .nav-item:hover {
@@ -274,7 +274,7 @@ header {
   font-weight: 200;
   line-height: 1.125em;
   margin: 5px 40px 0 40px;
-  color: #999999;
+  color: #888888;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -297,7 +297,7 @@ header {
 .category-title {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: .875em;
-  color: #999999;
+  color: #888888;
   margin: 10px 0 20px;
 }
 
@@ -460,7 +460,7 @@ header {
   font-weight: 400;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #6D6D6D;
+  color: #666666;
   margin: 50px 0 10px 0;
 }
 
@@ -474,7 +474,7 @@ header {
 }
 
 .list-stores div a {
-  color: #6D6D6D;
+  color: #666666;
   text-decoration: none;
 }
 
@@ -486,7 +486,7 @@ header {
 }
 
 .list-stores div img {
-  height: 200px;
+  height: 150px;
   width: auto;
   border: solid 1px #CECECE;
 }
@@ -574,16 +574,17 @@ header {
 
 .store-online-responsive {
   margin: 0 auto;
+  text-align: center;
 }
 
 .store-online-responsive img {
   width: auto;
-  height: 300px;
+  height: 200px;
   margin: 70px 10px 70px 10px;
 }
 
 .section-bg-cta {
-  background-image: url("/images/cta-bg.webp");
+  background-image: url("/images/cta-bg-h.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -612,7 +613,7 @@ header {
   line-height: 1.74em;
   font-weight: 200;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #666666;
   margin: 0 10px 40px 0;
 }
 
@@ -621,7 +622,7 @@ header {
   padding: 15px 50px 15px 50px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.25em;
-  color: #6D6D6D;
+  color: #666666;
   border-radius: 20px;
   border: 0;
   margin-bottom: 40px;
@@ -830,7 +831,7 @@ header {
 .store-breadcrumb {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: .875em;
-  color: #999999;
+  color: #888888;
   margin: 10px 0 10px;
 }
 
@@ -894,7 +895,7 @@ header {
 
 .userrating-container div span {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #707070;
   font-size: .75em;
 }
 
@@ -1191,7 +1192,7 @@ header {
   }
   .userrating-container div span {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: #999999;
+    color: #707070;
     font-size: .875em;
   }
   .userrating-container div a {
@@ -1243,7 +1244,7 @@ header {
   font-weight: 400;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #6D6D6D;
+  color: #666666;
   margin: 50px 0 10px 0;
 }
 
@@ -1288,14 +1289,14 @@ header {
 .user-info div p {
   display: inline;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #707070;
   margin: 0 5px;
   font-size: .85em;
 }
 
 .user-info div i {
   font-size: 1.5em;
-  color: #999999;
+  color: #707070;
 }
 
 .review-rating-stars div {
@@ -1308,7 +1309,7 @@ header {
 }
 
 .user-review h5 {
-  color: #99CAFF;
+  color: #0059b9;
   font-size: 1.125em;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -1390,7 +1391,7 @@ header {
 
 .signin-header p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #888888;
   font-size: .875em;
   font-weight: 400;
 }
@@ -1401,7 +1402,7 @@ header {
 
 .form-group label {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #6D6D6D;
+  color: #666666;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -1444,11 +1445,11 @@ header {
 }
 
 .signin-footer a:first-child {
-  color: #999999;
+  color: #707070;
 }
 
 .signin-footer p {
-  color: #6D6D6D;
+  color: #666666;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 5px;
 }
@@ -1498,7 +1499,7 @@ header {
 
 .signup-header p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #888888;
   font-size: .875em;
   font-weight: 400;
   padding: 10px 0 30px 0;
@@ -1556,13 +1557,12 @@ footer {
 }
 
 .footer-category-title {
-  font-size: 1.375em;
-  color: #CCCCCC;
+  font-size: 1em;
+  color: #8d8d8d;
   margin-left: 40px;
 }
 
 .footer_item {
-  font-size: 1.05em;
   list-style: none;
   line-height: 2.25em;
 }
@@ -1570,6 +1570,7 @@ footer {
 .footer_item a {
   text-decoration: none;
   color: #6D6D6D;
+  font-size: .75em;
 }
 
 .copyright {
@@ -1597,10 +1598,25 @@ footer {
 
 @media (min-width: 576px) {
   .footer-category-title {
-    font-size: 1.125em;
+    font-size: 1em;
   }
   .footer_item {
-    font-size: 0.75em;
+    font-size: 0.85em;
+  }
+  .footer_item a {
+    font-size: 0.85em;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-category-title {
+    font-size: 1em;
+  }
+  .footer_item {
+    font-size: 0.85em;
+  }
+  .footer_item a {
+    font-size: 0.85em;
   }
 }
 
@@ -1612,5 +1628,16 @@ html {
 body {
   padding: 0;
   margin: 0;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 /*# sourceMappingURL=style.css.map */
